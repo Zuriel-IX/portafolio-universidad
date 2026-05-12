@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{.Title}}</title>
+  {{ with resources.Get "css/main.css" | css.Build }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}">
+  {{ end }}
+</head>
+<body>
+  <header>
+    <h1 class="title"> {{ .Title }} </h1>
+    <hr>
+  </header>
+  <main>
+    <ul>
+        {{ range .Data.Pages.ByParam "order" }}
+        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+        {{ end }}
+    </ul>
+
+    {{ .Content }}
+  </main>
+  <footer>
+    <hr>
+    Zuriel Dambolena
+    <a href="/portafolio-universidad/">Home</a>
+  </footer>
+
+</body>
+</html>

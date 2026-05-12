@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{.Title}}</title>
+  {{ with resources.Get "css/main.css" | css.Build }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}">
+  {{ end }}
+</head>
+<body>
+  <header>
+    <h1 class="title"> {{ .Title }} </h1>
+    <hr>
+  </header>
+  <main>
+    <ul>
+      {{ range .Data.Pages.ByDate }}
+      <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+      {{ end }}
+    </ul>
+    {{ .Content }}
+  </main>
+</body>
+</html>

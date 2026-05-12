@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{.Title}}</title>
+  {{ with resources.Get "css/main.css" | css.Build }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}">
+  {{ end }}
+
+</head>
+
+<body>
+  <header>
+    <nav aria-label="breadcrumb" class="breadcrumb">
+      <ol>
+        {{ range .Ancestors.Reverse }}
+          <li>
+            <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+          </li>
+        {{ end }}
+        <li class="active">
+          <a aria-current="page" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+        </li>
+      </ol>
+    </nav>
+    <h1 class="title"> {{ .Title }} </h1>
+    <hr>
+  </header>
+  <main>
+  {{.Content}}
+  </main>
+  <footer>
+    <hr>
+    Zuriel Dambolena
+    <a href="/portafolio-universidad/">Home</a>
+  </footer>
+</body>
+</html>

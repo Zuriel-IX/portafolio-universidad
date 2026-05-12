@@ -1,0 +1,86 @@
+/* ns-hugo-imp:C:\Users\Zuriel\Development\Universidad\portafolio\portafolio-universidad\assets\css\components\structured.css */
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  min-height: 50px;
+  padding: 5vh;
+}
+.title {
+  text-align: center;
+  text-transform: uppercase;
+}
+main {
+  flex: 1;
+  padding: 5vh;
+}
+footer {
+  min-height: 50px;
+  padding: 5vh;
+}
+
+/* ns-hugo-imp:C:\Users\Zuriel\Development\Universidad\portafolio\portafolio-universidad\assets\css\components\nav.css */
+.breadcrumb ol {
+  padding-left: 0;
+}
+.breadcrumb li {
+  display: inline;
+}
+.breadcrumb li:not(:last-child)::after {
+  content: "\bb";
+}
+nav {
+  position: absolute;
+  font-size: 11px;
+  color: lightgray;
+}
+a {
+  color: #99a;
+}
+
+/* <stdin> */
+:root {
+  --bg-color: #1f1f1f;
+  --text-color: #b0c0c5;
+}
+body {
+  background-color: var(--bg-color);
+  font-family:
+    calibri,
+    system-ui,
+    sans-serif;
+  font-size: 16px;
+  color: var(--text-color);
+}
+#crm-table {
+  background-color: #2f2f2f;
+  border: 10px #404040 solid;
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  padding: 1em;
+}
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+hr {
+  color: var(--text-color);
+  width: 100%;
+}
+img {
+  max-width: 80%;
+  height: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: 1em #404040 solid;
+}

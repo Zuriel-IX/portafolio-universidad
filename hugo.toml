@@ -1,0 +1,8 @@
+baseURL = 'https://zuriel-ix.github.io/portafolio-universidad/'
+locale = 'es-en'
+title = 'My New Hugo Projecto'
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # Enable user to embed HTML snippets in Markdown content.
