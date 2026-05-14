@@ -1,6 +1,7 @@
-/* ns-hugo-imp:C:\Users\Zuriel\Development\Universidad\portafolio\portafolio-universidad\assets\css\components\structured.css */
+/* ns-hugo-imp:C:\Users\Zuriel\Development\portafolio-universidad\assets\css\components\structured.css */
 body {
   min-height: 100vh;
+  width: 100%;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -16,13 +17,14 @@ header {
 main {
   flex: 1;
   padding: 5vh;
+  overflow-wrap: normal;
 }
 footer {
   min-height: 50px;
   padding: 5vh;
 }
 
-/* ns-hugo-imp:C:\Users\Zuriel\Development\Universidad\portafolio\portafolio-universidad\assets\css\components\nav.css */
+/* ns-hugo-imp:C:\Users\Zuriel\Development\portafolio-universidad\assets\css\components\nav.css */
 .breadcrumb ol {
   padding-left: 0;
 }
@@ -54,6 +56,12 @@ body {
     sans-serif;
   font-size: 16px;
   color: var(--text-color);
+}
+p {
+  line-height: 18px;
+}
+li {
+  padding-bottom: 10px;
 }
 #crm-table {
   background-color: #2f2f2f;

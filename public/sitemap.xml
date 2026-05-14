@@ -2,8 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://zuriel-ix.github.io/portafolio-universidad/categories/</loc>
+    <loc>http://localhost:1313/portafolio-universidad/works/clase6/</loc>
+    <lastmod>2026-05-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://zuriel-ix.github.io/portafolio-universidad/tags/</loc>
+    <loc>http://localhost:1313/portafolio-universidad/works/clase4/</loc>
+    <lastmod>2026-05-12T14:49:59-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/portafolio-universidad/works/crm/</loc>
+    <lastmod>2026-05-12T14:37:17-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/portafolio-universidad/works/</loc>
+    <lastmod>2026-05-10T12:41:49-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/portafolio-universidad/works/cultura-org/</loc>
+    <lastmod>2026-05-10T12:35:04-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/portafolio-universidad/works/clase3/</loc>
+    <lastmod>2026-05-10T12:33:36-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/portafolio-universidad/</loc>
+    <lastmod>2026-05-09T20:22:17-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/portafolio-universidad/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/portafolio-universidad/tags/</loc>
   </url>
 </urlset>

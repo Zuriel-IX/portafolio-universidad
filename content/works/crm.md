@@ -7,7 +7,7 @@ draft: true
 
 
 Análisis de dos sistemas CRM, con la característica de ser FOSS (Free Open-Source Software)
-SuiteCRM surge como fork de SugarCRM en 2013, es el CRM más extendido y maduro, orientado a empresas y companías grandes
+SuiteCRM surge como fork de SugarCRM en 2013, es el CRM más extendido y maduro, orientado a empresas y compañías grandes
 Twenty nace en 2023 como alternativa moderna, construido y mantenido por un pequeño equipo y la comunidad, enfocada a desarrolladores.
 
 <a href="https://www.hubspot.es/products/crm/what-is">¿Qué es un CRM?</a>
@@ -35,7 +35,7 @@ Twenty nace en 2023 como alternativa moderna, construido y mantenido por un pequ
         GraphQL API<br>
         Base de datos PostgreSQL<br>
         Agenda de clientes<br>
-        Integracion de Emails<br>
+        integración de Emails<br>
         UI amigable y moderna<br>
     </td> 
     </tr> 

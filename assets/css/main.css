@@ -11,8 +11,16 @@ body {
   font-family: calibri, system-ui, sans-serif;
   font-size: 16px;
   color: var(--text-color);
+
 }
 
+p {
+  line-height: 18px;
+}
+
+li {
+  padding-bottom: 10px;
+}
 #crm-table {
   background-color: #2f2f2f;
   border: 10px #404040 solid;

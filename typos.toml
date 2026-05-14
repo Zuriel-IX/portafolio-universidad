@@ -1,0 +1,9 @@
+[default]
+
+[default.extend-words]
+ser = "ser"
+clientes = "clientes"
+Clase = "Clase"
+controles = "controles"
+historial = "historial"
+decisiones = "decisiones"
