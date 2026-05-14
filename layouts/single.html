@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{.Title}}</title>
   {{ with resources.Get "css/main.css" | css.Build }}
     <link rel="stylesheet" href="{{ .RelPermalink }}">
