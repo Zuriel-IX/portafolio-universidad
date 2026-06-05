@@ -2,7 +2,7 @@
 title: "Cultura Organizacional"
 order: 1
 date: 2026-05-10T12:35:04-03:00
-draft: true
+draft: false
 ---
 
 * Empresa seleccionada: New Blood Interactive.

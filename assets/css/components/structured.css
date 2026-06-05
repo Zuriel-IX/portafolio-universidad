@@ -18,6 +18,8 @@ main {
   flex: 1;
   padding: 5vh;
   overflow-wrap: normal;
+  max-width: 700px;
+  align-self: center;
 }
 footer {
   min-height: 50px;

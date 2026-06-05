@@ -2,7 +2,7 @@
 title: "Características de los sistemas CRM"
 order: 5
 date: 2026-05-12T14:37:17-03:00
-draft: true
+draft: false
 ---
 
 

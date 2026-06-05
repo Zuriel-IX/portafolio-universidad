@@ -2,7 +2,7 @@
 title: 'ERM Actividades'
 order: 6
 date: '2026-05-14'
-draft: true
+draft: false
 ---
 
 ## 1
