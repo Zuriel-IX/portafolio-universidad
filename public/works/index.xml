@@ -6,8 +6,15 @@
     <description>Recent content in Trabajos Emprendedurismo on My New Hugo Projecto</description>
     <generator>Hugo</generator>
     <language>es-en</language>
-    <lastBuildDate>Thu, 04 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/portafolio-universidad/works/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Clase 11</title>
+      <link>http://localhost:1313/portafolio-universidad/works/clase11/</link>
+      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portafolio-universidad/works/clase11/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/portafolio-universidad/images/diagramaGantt.jpg&#34; alt=&#34;Imagen&#34;&gt; asasasaaa&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Análisis Resultado del Ejercicio</title>
       <link>http://localhost:1313/portafolio-universidad/works/clase10/</link>
